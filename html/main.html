@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지그재그-main</title>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Swiper Slide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="container main">
+        <div class="main-inner">
+            <!-- 메인 배너 영역 -->
+            <div id="main-banner" class="active">
+                <div class="wrap">
+                    <div class="main-banner-inner">
+                        <a class="app-desc" aria-label="지그재그 앱에서 더 편리하게" href="#" >
+                            <img src="../img/app-desc.png" alt="어플 설명">
+                        </a>
+                        <button type="button" class="btn-go-app">앱으로 이동</button>
+                    </div>
+                </div>
+            </div>
+            <!-- 헤더 영역 -->
+            <header id="header">
+                <div class="header-include" data-include-file="../include/header.html"></div>
+            </header>
+            <!-- 메인페이지 영역 -->
+            <main>
+                <!-- Section : 메인 이벤트 -->
+                <section id="main-event">
+                    <h2 class="hide">메인 이벤트 모음</h2>
+                    <!-- Swiper Slide -->
+                    <div class="wrap">
+                        <div class="swiper main-event-slider">
+                            <div class="swiper-wrapper">
+                                <div class="swiper-slide">
+                                    <a class="main-event-img" href="#">
+                                        <img src="../img/main-event-01.webp" alt="메인 이벤트 이미지-01">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="main-event-img" href="#">
+                                        <img src="../img/main-event-02.webp" alt="메인 이벤트 이미지-02">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="main-event-img" href="#">
+                                        <img src="../img/main-event-03.webp" alt="메인 이벤트 이미지-03">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="main-event-img" href="#">
+                                        <img src="../img/main-event-04.webp" alt="메인 이벤트 이미지-04">
+                                    </a>
+                                </div>
+                                <div class="swiper-slide">
+                                    <a class="main-event-img" href="#">
+                                        <img src="../img/main-event-05.webp" alt="메인 이벤트 이미지-05">
+                                    </a>
+                                </div>
+                            </div>
+                            <!-- If we need pagination -->
+                            <div class="swiper-pagination"></div>
+                        </div>
+                    </div>
+                </section>
+                <!-- Section : 메인 카테고리 -->
+                <section id="main-category">
+                    <div class="main-category-wrap swiper">
+                        <ul class="swiper-wrapper">
+                            <li class="category-item swiper-slide">
+                                <a href="../html/category.html">
+                                    <div class="category-img">
+                                        <img src="../img/category-01.png" alt="카테고리 메뉴 이미지">
+                                    </div>
+                                    <div class="category-title">카테고리</div>
+                                </a>
+                            </li>
+                            <li class="category-item swiper-slide">
+                                <a href="../html/category.html">
+                                    <div class="category-img">
+                                        <img src="../img/category-02.png" alt="상의 이미지">
+                                    </div>
+                                    <div class="category-title">상의</div>
+                                </a>
+                            </li>
+                            <li class="category-item swiper-slide">
+                                <a href="../html/category.html">
+                                    <div class="category-img">
+                                        <img src="../img/category-03.png" alt="스커트 이미지">
+                                    </div>
+                                    <div class="category-title">스커트</div>
+                                </a>
+                            </li>
+                            <li class="category-item swiper-slide">
+                                <a href="../html/category.html">
+                                    <div class="category-img">
+                                        <img src="../img/category-04.png" alt="원피스 이미지">
+                                    </div>
+                                    <div class="category-title">원피스</div>
+                                </a>
+                            </li>
+                            <li class="category-item swiper-slide">
+                                <a href="../html/category.html">
+                                    <div class="category-img">
+                                        <img src="../img/category-05.png" alt="언더웨어 이미지">
+                                    </div>
+                                    <div class="category-title">언더웨어</div>
+                                </a>
+                            </li>
+                            <li class="category-item swiper-slide">
+                                <a href="../html/category.html">
+                                    <div class="category-img">
+                                        <img src="../img/category-06.png" alt="아우터 이미지">
+                                    </div>
+                                    <div class="category-title">아우터</div>
+                                </a>
+                            </li>
+                            <li class="category-item swiper-slide">
+                                <a href="../html/category.html">
+                                    <div class="category-img">
+                                        <img src="../img/category-07.png" alt="신발 이미지">
+                                    </div>
+                                    <div class="category-title">신발</div>
+                                </a>
+                            </li>
+                            <li class="category-item swiper-slide">
+                                <a href="../html/category.html">
+                                    <div class="category-img">
+                                        <img src="../img/category-08.png" alt="악세서리 이미지">
+                                    </div>
+                                    <div class="category-title">악세서리</div>
+                                </a>
+                            </li>
+                            <li class="category-item swiper-slide">
+                                <a href="../html/category.html">
+                                    <div class="category-img">
+                                        <img src="../img/category-09.png" alt="투피스 이미지">
+                                    </div>
+                                    <div class="category-title">투피스</div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+                <!-- Section : 첫 구매 특가 리스트 -->
+                <section id="main-first-buy">
+                    <div class="wrap">
+                        <h2 class="title">첫 구매 한정 특가</h2>
+                    </div>
+                    <div class="swiper main-first-buy-wrap">
+                        <ul class="swiper-wrapper">
+                            <!-- 카드 아이템 -->
+                            <li class="product-card swiper-slide">
+                                <a href="#none" class="link">
+                                    <div class="card-img">
+                                        <img src="../img/main-card-01.webp" alt="메인 카드 이미지-01">
+                                        <span class="badge-delivery">
+                                            <img src="../img/main-card-badge-delivery.png" alt="직진배송 이미지">
+                                        </span>
+                                        <span class="badge-heart" onclick="toggleAct(this)"></span>
+                                    </div>
+                                    <div class="card-desc">
+                                        <div class="title">
+                                            <h3>수앤수</h3>
+                                            <h4>&#91;2기장 인기폭발&#93; 안흘러 내리는 쫀쫀 양말 2가지 타입 선택 가능</h4>
+                                        </div>
+                                        <div class="price">
+                                            <span class="sale">99%</span>
+                                            <span class="last-price">100</span>
+                                        </div>
+                                        <div class="badge">
+                                            <div>
+                                                <span aria-level="첫 구매가">
+                                                    <img src="../img/item-badge-01.png" alt="첫구매가 이미지">
+                                                </span>
+                                                <span aria-level="무료배송">
+                                                    <img src="../img/item-badge-02.png" alt="무료배송 이미지">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="stars">
+                                            <div>
+                                                <span aria-level="별점">
+                                                    <img src="../img/stars.png" alt="별점 이미지">
+                                                </span>
+                                                <b>4.8</b>
+                                                <b>&#40;1,344&#41;</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="product-card swiper-slide">
+                                <a href="#none" class="link">
+                                    <div class="card-img">
+                                        <img src="../img/main-card-02.webp" alt="메인 카드 이미지-02">
+                                        <span class="badge-delivery">
+                                            <img src="../img/main-card-badge-delivery.png" alt="직진배송 이미지">
+                                        </span>
+                                        <span class="badge-heart" onclick="toggleAct(this)"></span>
+                                    </div>
+                                    <div class="card-desc">
+                                        <div class="title">
+                                            <h3>히프나틱</h3>
+                                            <h4>베이직 골지 목폴라 니트</h4>
+                                        </div>
+                                        <div class="price">
+                                            <span class="sale">99%</span>
+                                            <span class="last-price">100</span>
+                                        </div>
+                                        <div class="badge">
+                                            <div>
+                                                <span aria-level="첫 구매가">
+                                                    <img src="../img/item-badge-01.png" alt="첫구매가 이미지">
+                                                </span>
+                                                <span aria-level="무료배송">
+                                                    <img src="../img/item-badge-02.png" alt="무료배송 이미지">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="stars">
+                                            <div>
+                                                <span aria-level="별점">
+                                                    <img src="../img/stars.png" alt="별점 이미지">
+                                                </span>
+                                                <b>4.8</b>
+                                                <b>&#40;1,204&#41;</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="product-card swiper-slide">
+                                <a href="#none" class="link">
+                                    <div class="card-img">
+                                        <img src="../img/main-card-03.webp" alt="메인 카드 이미지-03">
+                                        <span class="badge-delivery"></span>
+                                        <span class="badge-heart" onclick="toggleAct(this)"></span>
+                                    </div>
+                                    <div class="card-desc">
+                                        <div class="title">
+                                            <h3>블루씨티</h3>
+                                            <h4>&#91;made&#93; 스테이 골지 쫀쫀 나시 - 5color</h4>
+                                        </div>
+                                        <div class="price">
+                                            <span class="sale">99%</span>
+                                            <span class="last-price">100</span>
+                                        </div>
+                                        <div class="badge">
+                                            <div>
+                                                <span aria-level="첫 구매가">
+                                                    <img src="../img/item-badge-01.png" alt="첫구매가 이미지">
+                                                </span>
+                                                <span aria-level="무료배송">
+                                                    <img src="../img/item-badge-02.png" alt="무료배송 이미지">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="stars">
+                                            <div>
+                                                <span aria-level="별점">
+                                                    <img src="../img/stars.png" alt="별점 이미지">
+                                                </span>
+                                                <b>4.6</b>
+                                                <b>&#40;1,102&#41;</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="product-card swiper-slide">
+                                <a href="#none" class="link">
+                                    <div class="card-img">
+                                        <img src="../img/main-card-04.webp" alt="메인 카드 이미지-04">
+                                        <span class="badge-delivery">
+                                            <img src="../img/main-card-badge-delivery.png" alt="직진배송 이미지">
+                                        </span>
+                                        <span class="badge-heart" onclick="toggleAct(this)"></span>
+                                    </div>
+                                    <div class="card-desc">
+                                        <div class="title">
+                                            <h3>수앤수</h3>
+                                            <h4>&#91;2기장 인기폭발&#93; 안흘러 내리는 쫀쫀 양말 2가지 타입 선택 가능</h4>
+                                        </div>
+                                        <div class="price">
+                                            <span class="sale">99%</span>
+                                            <span class="last-price">100</span>
+                                        </div>
+                                        <div class="badge">
+                                            <div>
+                                                <span aria-level="첫 구매가">
+                                                    <img src="../img/item-badge-01.png" alt="첫구매가 이미지">
+                                                </span>
+                                                <span aria-level="무료배송">
+                                                    <img src="../img/item-badge-02.png" alt="무료배송 이미지">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="stars">
+                                            <div>
+                                                <span aria-level="별점">
+                                                    <img src="../img/stars.png" alt="별점 이미지">
+                                                </span>
+                                                <b>4.8</b>
+                                                <b>&#40;1,344&#41;</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="product-card swiper-slide">
+                                <a href="#none" class="link">
+                                    <div class="card-img">
+                                        <img src="../img/main-card-05.webp" alt="메인 카드 이미지-05">
+                                        <span class="badge-delivery"></span>
+                                        <span class="badge-heart" onclick="toggleAct(this)"></span>
+                                    </div>
+                                    <div class="card-desc">
+                                        <div class="title">
+                                            <h3>수앤수</h3>
+                                            <h4>&#91;2기장 인기폭발&#93; 안흘러 내리는 쫀쫀 양말 2가지 타입 선택 가능</h4>
+                                        </div>
+                                        <div class="price">
+                                            <span class="sale">99%</span>
+                                            <span class="last-price">100</span>
+                                        </div>
+                                        <div class="badge">
+                                            <div>
+                                                <span aria-level="첫 구매가">
+                                                    <img src="../img/item-badge-01.png" alt="첫구매가 이미지">
+                                                </span>
+                                                <span aria-level="무료배송">
+                                                    <img src="../img/item-badge-02.png" alt="무료배송 이미지">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="stars">
+                                            <div>
+                                                <span aria-level="별점">
+                                                    <img src="../img/stars.png" alt="별점 이미지">
+                                                </span>
+                                                <b>4.8</b>
+                                                <b>&#40;1,344&#41;</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                    <!-- 첫구매 혜택 버튼 -->
+                    <div class="wrap">
+                        <button type="button" class="btn-first-buy">첫구매 혜택 전체보기</button>
+                    </div>
+                </section>
+
+                <!-- Section : 메인 페이지 아이템 리스트 -->
+                <section id="main-item-list">
+                    <div class="main-item-list-wrap">
+                        <ul class="grid-box">
+                            <!-- 카드 아이템 -->
+                            <li class="product-card">
+                                <a href="#none" class="link">
+                                    <div class="card-img">
+                                        <img src="../img/main-list-item-01.jpg" alt="메인 리스트 이미지-01">
+                                        <span class="badge-delivery"></span>
+                                        <span class="badge-heart" onclick="toggleAct(this)"></span>
+                                    </div>
+                                    <div class="card-desc">
+                                        <div class="title">
+                                            <h3>수앤수</h3>
+                                            <h4>&#91;2기장 인기폭발&#93; 안흘러 내리는 쫀쫀 v넥 니트</h4>
+                                        </div>
+                                        <div class="price">
+                                            <span class="sale">12%</span>
+                                            <span class="last-price">25,900</span>
+                                        </div>
+                                        <div class="badge">
+                                            <div>
+                                                <span aria-level="첫 구매가">
+                                                    <img src="../img/item-badge-01.png" alt="첫구매가 이미지">
+                                                </span>
+                                                <span aria-level="무료배송">
+                                                    <img src="../img/item-badge-02.png" alt="무료배송 이미지">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="stars">
+                                            <div>
+                                                <span aria-level="별점">
+                                                    <img src="../img/stars.png" alt="별점 이미지">
+                                                </span>
+                                                <b>4.8</b>
+                                                <b>&#40;1,344&#41;</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="product-card">
+                                <a href="#none" class="link">
+                                    <div class="card-img">
+                                        <img src="../img/main-list-item-02.jpg" alt="메인 리스트 이미지-01">
+                                        <span class="badge-heart" onclick="toggleAct(this)"></span>
+                                    </div>
+                                    <div class="card-desc">
+                                        <div class="title">
+                                            <h3>미니뽕</h3>
+                                            <h4>&#91;2 Color&#93; 싱글 탄탄 하프코트</h4>
+                                        </div>
+                                        <div class="price">
+                                            <span class="sale">10%</span>
+                                            <span class="last-price">83,900</span>
+                                        </div>
+                                        <div class="badge">
+                                            <div>
+                                                <span aria-level="첫 구매가">
+                                                    <img src="../img/item-badge-01.png" alt="첫구매가 이미지">
+                                                </span>
+                                                <span aria-level="무료배송">
+                                                    <img src="../img/item-badge-02.png" alt="무료배송 이미지">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="stars">
+                                            <div>
+                                                <span aria-level="별점">
+                                                    <img src="../img/stars.png" alt="별점 이미지">
+                                                </span>
+                                                <b>4.8</b>
+                                                <b>&#40;164&#41;</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="product-card">
+                                <a href="#none" class="link">
+                                    <div class="card-img">
+                                        <img src="../img/main-list-item-03.jpg" alt="메인 리스트 이미지-03">
+                                        <span class="badge-delivery">
+                                            <img src="../img/main-card-badge-delivery.png" alt="직진배송 이미지">
+                                        </span>
+                                        <span class="badge-heart" onclick="toggleAct(this)"></span>
+                                    </div>
+                                    <div class="card-desc">
+                                        <div class="title">
+                                            <h3>베이델리</h3>
+                                            <h4>&#91;캐시미어 함유&#93; 캐시미어 솜사탕 니트</h4>
+                                        </div>
+                                        <div class="price">
+                                            <span class="sale">6%</span>
+                                            <span class="last-price">30,800</span>
+                                        </div>
+                                        <div class="badge">
+                                            <div>
+                                                <span aria-level="첫 구매가">
+                                                    <img src="../img/item-badge-01.png" alt="첫구매가 이미지">
+                                                </span>
+                                                <span aria-level="무료배송">
+                                                    <img src="../img/item-badge-02.png" alt="무료배송 이미지">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="stars">
+                                            <div>
+                                                <span aria-level="별점">
+                                                    <img src="../img/stars.png" alt="별점 이미지">
+                                                </span>
+                                                <b>4.6</b>
+                                                <b>&#40;1,344&#41;</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="product-card">
+                                <a href="#" class="link">
+                                    <div class="card-img">
+                                        <img src="../img/main-list-item-04.jpg" alt="메인 리스트 이미지-04">
+                                        <span class="badge-delivery"></span>
+                                        <span class="badge-heart" onclick="toggleAct(this)"></span>
+                                    </div>
+                                    <div class="card-desc">
+                                        <div class="title">
+                                            <h3>폴로랄프로렌</h3>
+                                            <h4>&#91;10 Color&#93; 쫀쫀 U넥 랄프로렌 니트</h4>
+                                        </div>
+                                        <div class="price">
+                                            <span class="sale">9%</span>
+                                            <span class="last-price">102,000</span>
+                                        </div>
+                                        <div class="badge">
+                                            <div>
+                                                <span aria-level="첫 구매가">
+                                                    <img src="../img/item-badge-01.png" alt="첫구매가 이미지">
+                                                </span>
+                                                <span aria-level="무료배송">
+                                                    <img src="../img/item-badge-02.png" alt="무료배송 이미지">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="stars">
+                                            <div>
+                                                <span aria-level="별점">
+                                                    <img src="../img/stars.png" alt="별점 이미지">
+                                                </span>
+                                                <b>4.8</b>
+                                                <b>&#40;1,344&#41;</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="product-card">
+                                <a href="#none" class="link">
+                                    <div class="card-img">
+                                        <img src="../img/main-list-item-05.jpg" alt="메인 리스트 이미지-05">
+                                        <span class="badge-delivery"></span>
+                                        <span class="badge-heart" onclick="toggleAct(this)"></span>
+                                    </div>
+                                    <div class="card-desc">
+                                        <div class="title">
+                                            <h3>스파오</h3>
+                                            <h4>&#91;2기장 인기폭발&#93; 한겨울 푸퍼 패딩</h4>
+                                        </div>
+                                        <div class="price">
+                                            <span class="sale">5%</span>
+                                            <span class="last-price">70,300</span>
+                                        </div>
+                                        <div class="badge">
+                                            <div>
+                                                <span aria-level="첫 구매가">
+                                                    <img src="../img/item-badge-01.png" alt="첫구매가 이미지">
+                                                </span>
+                                                <span aria-level="무료배송">
+                                                    <img src="../img/item-badge-02.png" alt="무료배송 이미지">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="stars">
+                                            <div>
+                                                <span aria-level="별점">
+                                                    <img src="../img/stars.png" alt="별점 이미지">
+                                                </span>
+                                                <b>4.8</b>
+                                                <b>&#40;1,344&#41;</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li class="product-card">
+                                <a href="#none" class="link">
+                                    <div class="card-img">
+                                        <img src="../img/main-list-item-06.jpg" alt="메인 리스트 이미지-06">
+                                        <span class="badge-delivery">
+                                            <img src="../img/main-card-badge-delivery.png" alt="직진배송 이미지">
+                                        </span>
+                                        <span class="badge-heart" onclick="toggleAct(this)"></span>
+                                    </div>
+                                    <div class="card-desc">
+                                        <div class="title">
+                                            <h3>이퓨</h3>
+                                            <h4>&#91;인기폭발&#93; 모공을 막지 않는 수분 크림</h4>
+                                        </div>
+                                        <div class="price">
+                                            <span class="sale">15%</span>
+                                            <span class="last-price">10,900</span>
+                                        </div>
+                                        <div class="badge">
+                                            <div>
+                                                <span aria-level="첫 구매가">
+                                                    <img src="../img/item-badge-01.png" alt="첫구매가 이미지">
+                                                </span>
+                                                <span aria-level="무료배송">
+                                                    <img src="../img/item-badge-02.png" alt="무료배송 이미지">
+                                                </span>
+                                            </div>
+                                        </div>
+                                        <div class="stars">
+                                            <div>
+                                                <span aria-level="별점">
+                                                    <img src="../img/stars.png" alt="별점 이미지">
+                                                </span>
+                                                <b>4.8</b>
+                                                <b>&#40;1,344&#41;</b>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </section>
+            </main>
+
+            <!-- Gnb 영역 -->
+            <div class="gnb">
+                <div class="gnb-include" data-include-file="../include/gnb.html"></div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="../js/common.js"></script>
+<script src="../js/slider.js"></script>
+</html>

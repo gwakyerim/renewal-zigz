@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>지그재그-category</title>
+    <!-- jQuery CDN -->
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <!-- Swiper Slide -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <!-- Custom CSS-->
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <div class="container join">
+    <div class="join-inner">
+      <div class="sub-header">
+        <div class="wrap">
+          <div class="flex-box">
+            <a href="../html/main.html" class="btn-back">
+              <img src="../img/back.png" alt="뒤로가기">
+            </a>
+            <span class="sub-header-title">회원가입</span>
+            <span class="gap"></span>
+          </div>
+        </div>
+      </div>
+      <section id="join">
+        <div class="wrap">
+          <div class="join-box">
+            <h2 class="title">회원가입</h2>
+            <div class="email">
+              <label for="email-box"><h3>이메일</h3></label>
+              <div id="email-box">
+                <input type="email" placeholder="이메일">
+                <select name="email-type">
+                  <option value="check">선택해주세요</option>
+                  <option value="naver">naver.com</option>
+                  <option value="daum">daum.com</option>
+                </select>
+              </div>
+              <div class="email-check"><button type="button">이메일 인증하기</button></div>
+            </div>
+            <div class="password">
+              <label for="pw-box"><h3>비밀번호</h3></label>
+              <b>영문,숫자를 포함한 8자 이상의 비밀번호를 입력해주세요.</b>
+              <input type="password" id="pw-box" placeholder="비밀번호">
+            </div>
+            <div class="password-check">
+              <label for="pw-check-box"><h3>비밀번호 확인</h3></label>
+              <input type="password" id="pw-box" placeholder="비밀번호 확인">
+            </div>
+            <div class="nickname">
+              <label for="nickname-box"><h3>닉네임</h3></label>
+              <input type="text" id="nickname-box" placeholder="별명 (1~10자)">
+            </div>
+            <div class="terms">
+              <h3>약관동의</h3>
+              <div>
+                <input type="checkbox" id="terms-all">
+                <label for="terms-all"><em></em>전체동의</label>
+              </div>
+              <div>
+                <input type="checkbox" id="terms-age">
+                <label for="terms-age"><em></em>만 14세 이상입니다.</label>
+              </div>
+              <div>
+                <input type="checkbox" id="terms-info">
+                <label for="terms-info"><em></em>이용약관</label>
+              </div>
+              <div>
+                <input type="checkbox" id="terms-event">
+                <label for="terms-event"><em></em>이벤트,쿠폰 등 SMS 수신</label>
+              </div>
+            </div>
+            <div class="btn-last-check">
+              <button type="button">회원가입하기</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Gnb 영역 -->
+      <div class="gnb">
+        <div class="gnb-include" data-include-file="../include/gnb.html"></div>
+      </div>
+    </div>
+  </div>
+  <script src="../js/common.js"></script>
+  <script src="../js/slider.js"></script>
+</body>
